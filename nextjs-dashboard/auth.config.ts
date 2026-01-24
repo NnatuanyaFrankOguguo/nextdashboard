@@ -18,5 +18,6 @@ export const authConfig = {
       return true;
     },
   },
-  providers: [], // Add providers with an empty array for now
+  providers: [],
+  trustHost: true, // Required for Vercel deployment
 } satisfies NextAuthConfig;
